@@ -24,4 +24,5 @@
   - name: 'install QuickJS (as root)'
     make:
       chdir: /home/vagrant/quickjs-2019-07-21
+      target: install
     become: true
